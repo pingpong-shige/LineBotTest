@@ -1,0 +1,14 @@
+{
+    "name": "#LINE Messaging API test PHP",
+    "description": "heroku 上にデプロイされる LINE Messaging APIのサーバースクリプト",
+    "repository": "https://github.com/greennoah/line-messagingapi-test.git",
+    "keywords": ["php", "line-messaging-api"],
+    "env": {
+      "LINE_CHANNEL_ACCESS_TOKEN": {
+        "description": "Channel Access Token (LINE developers の Basic information で確認できます)"
+      },
+      "DOCOMO_API_KEY": {
+        "description": "Docomo Api Key (Docomo Developer support の API利用申請・管理 で確認できます)"
+      }
+    }
+}
